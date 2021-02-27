@@ -9,3 +9,18 @@ h2{
 	font-family: 'Times New Roman', Times, serif;
 	text-align: center;
 }
+
+.square{
+	padding: 36px;
+	width: 100px;
+	color: #fff;
+	margin: 10px;
+	background: turquoise;	
+}
+ 
+#square{
+	width: 1080px;
+	color: #fff;
+	background: blanchedalmond;
+	padding: 720px;
+}
