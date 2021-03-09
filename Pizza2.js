@@ -1,0 +1,1 @@
+document.getElementById("nama").innerHTML = "Nama Saya Mizwar dan kopi Java sama Pizza enak ya.";
