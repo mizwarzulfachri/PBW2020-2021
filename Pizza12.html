@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Bagian Pizza Keduabelas</title>
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body>
+    <h1>Javascript 12</h1>
+
+    <!-- Result -->
+    <h2><div id="result0"></div></h2>
+    <h2><div id="result1"></div></h2>
+    <h2><div id="result2"></div></h2>
+    <h2><div id="result3"></div></h2>
+    <h2><div id="result4"></div></h2>
+    <h2><div id="result5"></div></h2>
+    <h2><div id="result6"></div></h2>
+    <h2><div id="result7"></div></h2>
+
+
+    <script>
+        //lenght
+        var text = "Oh iya, Nama Saya Mizwar dan kopi Java sama Pizza enak ya?";
+        var text1 = 'Atau tidak ya?';
+        //indexOf
+        var index = text.indexOf("ya");
+        //search 
+        var find = text.search("Pizza");
+        //cut the sentence
+        var cut = text.slice(29, 58);
+        //change 
+        var change = text.replace('kopi Java', 'teh');
+        //Uppercase & lowercase
+        var up = text.toUpperCase();
+        var down = text.toLowerCase();
+        //combine
+        var combine = text.concat(" ", text1);
+        //split to an array
+        var text2 = "kopi,teh,smoothie,jus,susu";
+        var split = text2.split(",");
+
+        document.getElementById("result0").innerHTML = "Jumlah karakter " + text.length;
+        document.getElementById("result1").innerHTML = 'Jumlah "ya" ' + index;
+        document.getElementById("result2").innerHTML = 'Jumlah space menuju "Pizza" ' + find;
+        document.getElementById("result3").innerHTML = cut;
+        document.getElementById("result4").innerHTML = change;
+        document.getElementById("result5").innerHTML = up;
+        document.getElementById("result6").innerHTML = down;
+        document.getElementById("result7").innerHTML = split[Math.floor(Math.random() * 5)];
+    </script>
+
+</body>
+</html>
