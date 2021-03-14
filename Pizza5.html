@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Bagian Pizza Kelima</title>
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body>
+    <h1>Javascript 5</h1>
+    
+    <!-- id hasil -->
+    <div id="int"></div>
+    <div id="strings"></div>
+    <div id="array"></div>
+    <div id="objects"></div>
+
+    <script>
+        //tipe data Number
+        var number = 20;
+        var sentence = "Sedang belajar, jadi fokus";
+        var bugs = ["Ants", "Bees", "Wasp", "Caterpillar", "Moth", "Roach"];
+        var people = {
+            name : "Sibil",
+            address : "Sana",
+            age : "9",
+        };
+               
+        document.getElementById("int").innerHTML = number;
+        document.getElementById("strings").innerHTML = sentence;
+        document.getElementById("array").innerHTML = bugs[3];
+        document.getElementById("objects").innerHTML = people.name + " tinggal di " + people.address + " dia berumur " + people.age + " dan suka tangkap " + bugs[Math.floor(Math.random() * 6)];
+
+    </script>
+
+</body>
+</html>
