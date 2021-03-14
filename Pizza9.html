@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Bagian Pizza Kedelpan</title>
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body>
+    <h1>Javascript 8</h1>
+    
+    <h1>Klik untuk menampilkan tanggal dan waktu sekarang</h1>
+    <!-- Button Listener -->
+    <button onclick="tulisan()">Klik</button>
+
+    </br><h1><div id="button"></div></h1>
+
+    <script>
+        //array
+        var date = new Date;
+
+        //function
+        function tulisan() {
+            document.getElementById("button").innerHTML = date;
+        }
+
+    </script>
+
+</body>
+</html>
