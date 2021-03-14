@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Bagian Pizza Kesebelas</title>
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body>
+    <h1>Javascript 11</h1>
+
+    <!-- Button listeners -->
+    <button onclick="loop()">Klik</button>
+
+    <!-- Result -->
+    <h4><div id="result"></div></h4>
+
+    <script>
+        //loop
+        function loop() {
+            var text = " ";
+            var z;
+
+            for (z = 0; z <= 20; z++) {
+                text += "Angka ini " + z + "</br>";
+            }
+
+        document.getElementById("result").innerHTML = text;
+
+        }
+
+    </script>
+
+</body>
+</html>
